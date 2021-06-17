@@ -80,7 +80,7 @@
                 <p>BIOPONIK HIDROPONIK</p>
                 <a href=""><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="400" height="300" type="text/html" src="https://www.youtube.com/embed/oYZ73reog6w?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://embedgooglemaps.com">Google maps embed</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="https://www.unorules.org/minecraft-uno-rules/">https://www.unorules.org/minecraft-uno-rules/</a></small></div></iframe></a>
                 <li>
-                    Alat dan Bahan hidroponik mahal? Bisa menggunakan botol bekas air mineral kok.
+                    Alat dan Bahan hidroponik mahal? Bisa menggunakan botol bekas air mineral kok. SOS
                 </li>
             </div>
         </div>
