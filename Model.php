@@ -1,10 +1,10 @@
 <?php
 
 class Database{
-    public $servername = "localhost";
-    public $username = "root";
-    public $password = "";
-    public $dbname = "login-projek-yoppy";
+    public $servername;
+    public $username;
+    public $password;
+    public $dbname;
 
     public function connectDB(){
         $servername = "localhost";
@@ -65,17 +65,33 @@ class Database{
 
 // }
 
-// class Data{
-//     public $nama;
+class dataLogin{
+    public $username;
+    public $password;
 
-//     public function __construct($nama){
-//         $this->nama = $nama;
-//     }
+    public function __construct($nama, $password){
+        $this->nama = $nama;
+        $this->password = $password;
+    }
 
-//     public function setName($nama){
-//         $this->nama = $nama;
-//     }
-// }
+    // public function getData(){
+    //     if (isset($_GET["submitLogin"])) {
+    //         if (empty($_GET["nama"])){
+    //             echo "Data tidak lengkap <br>";
+    //         } else{
+    //             echo $_GET["nama"].$_GET["password"];
+    //         }
+    //     }
+    // }
+}
+
+if (isset($_GET["submitLogin"])) {
+    if (empty($_GET["nama"])){
+        echo "Data tidak lengkap <br>";
+    } else{
+        echo $_GET["nama"].$_GET["password"];
+    }
+}
 
 class Fruit {
     public $name;
