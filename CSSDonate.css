@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    background: #0082e6 ;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer; 
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width:952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+
+@media(max-width:858px){
+    .checkbtn{
+        display: block;
+
+    }
+
+    ul{
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       background: #2c3e50;
+       top: 80px; 
+       left: -100%;
+       text-align: center;
+       transition: all .5s;
+
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    a:hover,a.active{
+        background: none;
+        color:#0082e6;
+    }
+
+    #check:checked~ul{
+        left: 0;
+    }
+}
+
+section{
+    background-image: url(Background2.jpg);
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+.kataPembuka{
+    background-color: white;
+    margin: 20px;
+}
+
+.kataPembuka p{
+    text-align: center;
+    color: black;
+    font-size: 36pt;
+}
+
+.news{
+    margin-top: 20px;
+    padding: 50px;
+    background-color: rgb(45, 45, 255);
+}
+
+.kataNews p{
+    font-size: 24pt;
+    color: white;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.gal img {
+    width: 300px;
+    height: 200px;
+}
+
+.gal {
+    background-color: #00000008;
+    width: 320px;
+    height: 280px;
+    text-align: center;
+    font-family: boba panda;
+    font-size: 23px;
+    letter-spacing: 1px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.gal a {
+    text-align: center;
+    font-family: boba panda;
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: black;
+}
+
+.gal a:hover {
+    color: rgba(0, 0, 0, 0.185);
+}
+
+/* .mainRoomLeft{
+    padding: 40px;
+    text-align: center;
+}
+
+.mainRoomLeft p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20pt;
+} */
+
+.mainRoom{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18pt;
+    background-image:url(galeri/d71b8f2fc2f53440e4fae358e21e07ac11dadaba.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainRoom img{
+    padding: 20px;    
+}
+
+.mainRoom img ::after{
+    background-color: #2b2525e5;
+    padding: 20px;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+form{
+    display: flex;
+    margin-left: 21%;
+    margin-right: 21%;
+    flex-direction: row;
+    color: rgba(236, 236, 236, 0.932);
+    background-color: #2a3632c2;
+}
+
+.lokasi{
+    text-align: center;
+}
+
+.lokasi a {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #4C4C4C;
+    height: 20px;
+    margin: 0px;
+}
+
+
+.bottom{
+    background-color: black;
+}
+
+.kotak1{
+    float: left;
+    width: 25%;
+    padding: 40px;
+    background-color: rgb(78, 78, 78);
+    text-align: center;
+    height: 300px;
+
+}
+
+.kotak1 a{
+    color: white;
+}
+
+.kotak1 p{
+    color: white;
+}
+
+#inputLetter{
+    height: fit-content;
+    width: 300px;
+    height: 100px;
+}
+
+.partners{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.blokGambarPartners{
+    text-align: center;
+}
+
+.gambarPartners{
+    margin: 10px;
+}
