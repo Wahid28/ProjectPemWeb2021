@@ -185,11 +185,38 @@ section{
     float: left;
     width: 25%;
     padding: 40px;
-    background-color: black;
+    background-color: rgb(78, 78, 78);
     text-align: center;
+    height: 300px;
 
 }
 
 .kotak1 a{
     color: white;
 }
+
+.kotak1 p{
+    color: white;
+}
+
+#inputLetter{
+    height: fit-content;
+    width: 300px;
+    height: 100px;
+}
+
+.partners{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.blokGambarPartners{
+    text-align: center;
+}
+
+.gambarPartners{
+    margin: 10px;
+}
+

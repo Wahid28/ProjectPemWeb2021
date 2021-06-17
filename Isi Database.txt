@@ -1,0 +1,13 @@
+Isi Database
+
+- id
+- Nama
+- Gender
+- Tanggal Lahir
+- Alamat
+- Kota Tinggal
+- Provinsi Tinggal
+- Nomor telepon
+- Email
+- Username
+- Password

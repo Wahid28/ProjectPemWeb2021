@@ -147,10 +147,38 @@ section{
     padding: 40px;
 }
 
+.mainRoomLeftKolom{
+    float: left;
+    width: 50%;
+}
+
+.mainRoomLeftKolom img{
+    height: 300px;
+    width: 400px;
+}
+
+.mainRoomLeftKolom p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20pt;
+}
+
 .mainRoomLeft p{
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     font-size: 20pt;
+}
+
+.mainRoomLeft img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mainRoomLeft a{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 20pt;
+    color: blue;
 }
 
 .mainRoomRight{
@@ -177,6 +205,10 @@ section{
     clear: both;
 }
 
+#namaOrganisasi{
+    text-align: center;
+}
+
 .bottom{
     background-color: black;
 }
@@ -185,11 +217,38 @@ section{
     float: left;
     width: 25%;
     padding: 40px;
-    background-color: black;
+    background-color: rgb(78, 78, 78);
     text-align: center;
+    height: 300px;
 
 }
 
 .kotak1 a{
     color: white;
 }
+
+.kotak1 p{
+    color: white;
+}
+
+#inputLetter{
+    height: fit-content;
+    width: 300px;
+    height: 100px;
+}
+
+.partners{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.blokGambarPartners{
+    text-align: center;
+}
+
+.gambarPartners{
+    margin: 10px;
+}
+

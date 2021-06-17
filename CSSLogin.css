@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;  
+}
+.login-container {
+    width: 30%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-radius: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif; 
+}
+.main-container {
+    display: flex;
+    align-items: flex-end;
+    background-image: url("bahan/bg-login.jpg");
+    object-fit: contain;
+    background-size: 100vw;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid black;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+    margin-bottom: 20px;
+}
+
+#login {
+    background-color: green;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: 20px;
+    width: 240px;
+    text-align: center;
+}
+
+#login :hover{
+    cursor: pointer;
+}
+
+#cancel {
+    background-color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    width: 240px;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
