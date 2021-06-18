@@ -16,12 +16,12 @@
         </label>
         <label class="logo">DesignX</label>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a class="active" href="">About Us</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Feedback</a></li>
-            <li><a href="">Login</a></li>
+        <li><a class="active" href="http://localhost/ProjekPWEB/Home4.php">Home</a></li>
+            <li><a href="About.php">About Us</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="Tips.php">Tips</a></li>
+            <li><a href="Signup.php">Daftar</a></li>
+            <li><a href="Login.php">Login</a></li>
         </ul>
     </nav>
     <section></section>

@@ -21,7 +21,7 @@
             <li><a href="About.php">About Us</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="Tips.php">Tips</a></li>
-            <li><a href="galeri.php">Galeri</a></li>
+            <li><a href="Signup.php">Daftar</a></li>
             <li><a href="Login.php">Login</a></li>
         </ul>
     </nav>
