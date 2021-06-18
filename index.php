@@ -11,10 +11,10 @@
     <div class="navbar">
         <label class="logo">DESIGNX</label>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Tips</a></li>
-            <li><a href="">Galeri</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="About.php">About Us</a></li>
+            <li><a href="Tips.php">Tips</a></li>
+            <li><a href="galeri.php">Galeri</a></li>
         </ul>
     </div>
 

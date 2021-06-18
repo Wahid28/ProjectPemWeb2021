@@ -9,19 +9,19 @@
     <title>About</title>
 </head>
 <body>
-    <nav>
+<nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
         <label class="logo">DesignX</label>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a class="active" href="">About Us</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Tips</a></li>
-            <li><a href="">Feedback</a></li>
-            <li><a href="">Login</a></li>
+            <li><a class="active" href="http://localhost/ProjekPWEB/Home4.php">Home</a></li>
+            <li><a href="About.php">About Us</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="Tips.php">Tips</a></li>
+            <li><a href="galeri.php">Galeri</a></li>
+            <li><a href="Login.php">Login</a></li>
         </ul>
     </nav>
     <section></section>
@@ -86,8 +86,8 @@
         </div>
         <div class="mainRoomRight">
             <p>RELATED</p>
-                <a href="">Daftar</a> <br>
-                <a href="">Galeri</a> <br>
+                <a href="Signup.php">Daftar</a> <br>
+                <a href="galeri.php">Galeri</a> <br>
                 <a href="">Mitra</a> <br>
 
             <img src="Background2.jpg" alt="" height="200px">
@@ -97,7 +97,7 @@
 
     <div class="bottom">
         <div class="kotak1">
-            <a href="">About Us</a>
+            <a href="About.php">About Us</a>
             
         </div>
         <div class="kotak1">
@@ -107,15 +107,13 @@
             <a href=""><img src="icon/wa.png" alt="" height="30px">  Adinda Yoppy</a>
         </div>
         <div class="kotak1">
-            <a href="">Donate</a> <br> <br>
+            <a href="donate.php">Donate</a> <br> <br>
             <p>NEWSLETTER</p>
-            <input type="input" name="" id="inputLetter"> 
-            <br>
-            <br>
-            <input type="submit" id="submitLetter" width="200px" height="200px">
+            <input type="input" name="" id="inputLetter">
+
         </div>
         <div class="kotak1">
-            <a href="">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
         </div>
     </div>
 

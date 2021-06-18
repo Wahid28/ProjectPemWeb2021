@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,18 +10,19 @@
 </head>
 
 <body>
-      <nav>
+     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
         <label class="logo">DesignX</label>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Feedback</a></li>
+            <li><a class="active" href="http://localhost/ProjekPWEB/Home4.php">Home</a></li>
+            <li><a href="About.php">About Us</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="Tips.php">Tips</a></li>
+            <li><a href="galeri.php">Galeri</a></li>
+            <li><a href="Login.php">Login</a></li>
         </ul>
     </nav>
     <section></section>
@@ -81,7 +79,7 @@
         </div>
         <div class="mainRoomRight">
             <p>RELATED</p>
-                <a href="">Daftar</a> <br>
+                <a href="Signup.php">Daftar</a> <br>
                 <a href="galeri.html">Galeri</a> <br>
                 <a href="">Mitra</a> <br>
 
@@ -92,20 +90,40 @@
 
     <div class="bottom">
         <div class="kotak1">
-            <a href="">About Us</a>
+            <a href="About.php">About Us</a>
             
         </div>
         <div class="kotak1">
-            <a href="">Follow Us</a> <br> <br>
+            <a href="">Follow Us</a> <br> <br> <br>
             <a href="https://www.facebook.com/adinda.yoppy"><img src="icon/facebook.png" alt="" height="30px">  Adinda Yoppy</a> <br> <br>
             <a href="https://www.instagram.com/dnxhill_/"><img src="icon/instagram.png" alt="" height="30px">  dnxhill_</a> <br> <br>
             <a href=""><img src="icon/wa.png" alt="" height="30px">  Adinda Yoppy</a>
         </div>
         <div class="kotak1">
-            <a href="donate.html">Donate</a>
+            <a href="donate.php">Donate</a> <br> <br>
+            <p>NEWSLETTER</p>
+            <input type="input" name="" id="inputLetter">
+
         </div>
         <div class="kotak1">
-            <a href="">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="partners">
+        <p>Our Partners</p>
+        <br>
+        <div class="blokGambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
+            <img src="Partners/Ell_Coffee.jpg" alt="" height="50px" class="gambarPartners">
         </div>
     </div>
 </body>
