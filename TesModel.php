@@ -10,7 +10,7 @@
     <?php include "Model.php"; ?>
     <form action="Model.php" method="get">
         <input type="text" name="nama" id="nama" placeholder="Username"> <br>
-        <input type="password" name="password" id="password" placeholder="Password">
+        <input type="text" name="password" id="password" placeholder="Password">
         <input type="submit" name="submitLogin" id="submitLogin" onclick> 
         <div id="cancel"><a href="">CANCEL</a> </div>
     </form>

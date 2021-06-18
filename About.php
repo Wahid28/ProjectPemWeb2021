@@ -57,11 +57,15 @@
         </div>
         <div class="mainRoomRight">
             <p>RELATED</p>
-                <a href="">Daftar</a> <br>
                 <a href="galeri.php">Galeri</a> <br>
-                <a href="">Mitra</a> <br>
 
             <img src="Background2.jpg" alt="" height="200px">
+            <p>Ini Gambar 1</p>
+            
+            <img src="74ddc9ff20bcb00b7ab876f4018d18268.jpg" alt="" height="200px">
+            <p>Ini Gambar 1</p>
+            
+            <img src="85f2674956028a.jpg" alt="" height="200px">
             <p>Ini Gambar 1</p>
         </div>
     </div>
