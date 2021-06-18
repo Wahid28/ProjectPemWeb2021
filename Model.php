@@ -1,24 +1,16 @@
 <?php
 
-class Database{
-    public $servername;
-    public $username;
-    public $password;
-    public $dbname;
 
-    public function connectDB(){
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "login-projek-yoppy";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "login-projek-yoppy";
 
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // if ($conn->connect_error) {
-        //     die("Connection failed: " . $conn->connect_error);
-        // }
-        // echo "Connected";
-    }
-}
+$conn = new mysqli($servername, $username, $password, $dbname);
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
+// echo "Connected";
 
 
 // class Data{
@@ -86,12 +78,42 @@ class dataLogin{
 }
 
 if (isset($_GET["submitLogin"])) {
-    if (empty($_GET["nama"])){
+    if ($_GET["nama"] == NULL || $_GET["password"] == NULL){
         echo "Data tidak lengkap <br>";
     } else{
-        echo $_GET["nama"].$_GET["password"];
+        $nameLogin = $_GET["nama"];
+        $passLogin = $_GET["password"];
+
+        $sql = "SELECT username, 'pass' FROM `user`";
+        $result = $conn->query($sql);
+
+        while($row = $result->fetch_assoc()){
+            echo $row["username"] . $row["pass"] . "<br>" . $nameLogin . $passLogin;
+            if($passLogin == $row["pass"]){
+                echo "Login Berhasil";
+            } else{
+                echo "Login Gagal";
+            }
+        }
+
+        $conn->close();
+
+        // var_dump($result);
+        // echo $_GET["nama"];
+        // echo $_GET["password"];
     }
 }
+
+// $sql = "SELECT id, nama, nim, 'password' FROM `authors`";
+//     $result = $conn->query($sql);
+
+//     if ($result->num_rows > 0) {
+//         echo "<table><tr><th>ID</th><th>Name<th><th>NIM<th><th>Password</th></tr>";
+//     // output data of each row
+//     while($row = $result->fetch_assoc()){
+//         echo  "<tr><td><br>". $row["id"] ."<td><td>     ". $row["nama"]. "<td><td>     ". $row["nim"]. "<td><td>     ". $row["password"] . "</td></tr>";
+//         };
+//         echo "</table>";
 
 class Fruit {
     public $name;
@@ -107,4 +129,8 @@ class Fruit {
 
 ?>
 
-<!-- , $gender, $tanggalLahir, $alamat, $kota, $provinsi, $telepon, $email, $username, $password -->
+<!-- '".$_GET["nama"]."' -->
+
+<!-- WHERE nama = 'dnxhill_'  -->
+
+<!-- && $passLogin == $row["password"] -->
