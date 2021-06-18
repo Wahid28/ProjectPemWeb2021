@@ -46,7 +46,7 @@
             <p>
                 Pertumbuhan penduduk yang semakin cepat diiringi dengan lahan Pertanian yang semakin terbatas membuat banyak daerah
                 yang kesulitan dalam memproduksi pangan untuk mencukupi kebutuhan daerahnya.
-                Hidroponik.id bekerja sama dengan pemerintah daerah Jember
+                Hidroponik.id bekerja sama dengan pemerintah daerah
                 untuk menyelesaikan masalah tersebut melalui pelatihan dan pemantauan petani dalam
                 bertani menggunakan metode hidroponik.
             </p>
