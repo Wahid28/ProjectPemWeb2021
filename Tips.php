@@ -16,12 +16,11 @@
         </label>
         <label class="logo">DesignX</label>
         <ul>
-            <li><a class="active" href="http://localhost/ProjekPWEB/Home4.php">Home</a></li>
+            <li><a href="Home4.php">Home</a></li>
             <li><a href="About.php">About Us</a></li>
             <li><a href="contact.php">Contact</a></li>
-            <li><a href="Tips.php">Tips</a></li>
-            <li><a href="Signup.php">Daftar</a></li>
-            <li><a href="Login.php">Login</a></li>
+            <li><a class="active" href="Tips.php">Tips</a></li>
+            <li><img src="icon/yuno gasai 2.png" alt="" height="40px" style="margin-top:20px"></li>
         </ul>
     </nav>
     <section></section>
@@ -40,48 +39,48 @@
         <div class="mainRoomLeft">
             <div class="mainRoomLeftKolom">
                 <p>Cara Memulai Hidroponik</p>
-                <a href=""><img src="gambar/Hidroponik 1.jpg" alt=""></a>
+                <a href="TipsMemulai.php"><img src="gambar/Hidroponik 1.jpg" alt="">
                 <li>
                     Bingung memulai sebuah Hidroponik?
                     Panduan memulai Hidroponik |
                     Panduan menanam ...
-                </li>
+                </li></a>
                 <br>
                 <p>Wick System</p>
-                <a href=""><img src="gambar/DSC_0001.jpg" alt=""></a>
+                <a href="TipsMemulai.php"><img src="gambar/DSC_0001.jpg" alt="">
                 <li>
                     Apa itu Wick System? Bagaimana
                     caranya?
-                </li>
+                </li></a>
                 <br>
                 <p>Water Culture System</p>
-                <a href=""><img src="gambar/DSC_0001.jpg" alt=""></a>
+                <a href="TipsMemulai.php"><img src="gambar/DSC_0001.jpg" alt="">
                 <li>
                     Memulai sebuah hidroponik tidak harus sulit.
                     Metode ini mudah untuk diterapkan dan dapat 
                     dibuat dengan memanfaatkan barang-barang bekas yang ada di rumah.
-                </li>
+                </li></a>
             </div>
             <div class="mainRoomLeftKolom">
                 <p>Peluang Hidroponik sebagai Hiasan</p>
                 <br>
-                <a href=""><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="400" height="300" type="text/html" src="https://www.youtube.com/embed/JZ9gTouExgs?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="https://enablejavascript.co">Enable javascript</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode en</a></small></div><div><small><a href="https://www.unorules.org/">https://www.unorules.org/</a></small></div><div><small><a href="https://youtubeembedcode.com/es/">youtubeembedcode.com/es/</a></small></div><div><small><a href="https://googlemapsgenerator.com">Google maps embed</a></small></div></iframe></a>
-                <li>
+                <a href="TipsMemulai.php"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="400" height="300" type="text/html" src="https://www.youtube.com/embed/JZ9gTouExgs?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="https://enablejavascript.co">Enable javascript</a></small></div><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode en</a></small></div><div><small><a href="https://www.unorules.org/">https://www.unorules.org/</a></small></div><div><small><a href="https://youtubeembedcode.com/es/">youtubeembedcode.com/es/</a></small></div><div><small><a href="https://googlemapsgenerator.com">Google maps embed</a></small></div></iframe></a>
+                <a href="TipsMemulai.php"><li>
                     Hidroponik tidak hanya berpeluang untuk tanaman
                     pangan, namun bisa untuk tanaman hias juga lho...
-                </li>
+                </li></a>
                 <br>
                 <p>Drip System</p>
-                <a href=""><img src="gambar/Drip-System 1.jpg" alt=""></a>
-                <li>
+                <a href="TipsMemulai.php"><img src="gambar/Drip-System 1.jpg" alt=""></a>
+                <a href="TipsMemulai.php"><li>
                     Hidroponik menghabiskan banyak air? Coba Drip System (Sistem Tetes)
-                </li>
+                </li></a>
                 <br>
                 <p>BIOPONIK HIDROPONIK</p>
-                <a href=""><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="400" height="300" type="text/html" src="https://www.youtube.com/embed/oYZ73reog6w?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://embedgooglemaps.com">Google maps embed</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="https://www.unorules.org/minecraft-uno-rules/">https://www.unorules.org/minecraft-uno-rules/</a></small></div></iframe></a>
+                <a href="TipsMemulai.php"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="400" height="300" type="text/html" src="https://www.youtube.com/embed/oYZ73reog6w?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/nl/">youtubeembedcode nl</a></small></div><div><small><a href="https://embedgooglemaps.com">Google maps embed</a></small></div><div><small><a href="https://youtubeembedcode.com/de/">youtubeembedcode de</a></small></div><div><small><a href="https://www.unorules.org/minecraft-uno-rules/">https://www.unorules.org/minecraft-uno-rules/</a></small></div></iframe>
                 <li>
                     Alat dan Bahan hidroponik mahal? Bisa menggunakan botol bekas air mineral kok. SOS
-                </li>
+                </li></a>
             </div>
         </div>
         <div class="mainRoomRight">
@@ -89,13 +88,13 @@
                 <a href="galeri.php">Galeri</a> <br>
 
             <img src="Background2.jpg" alt="" height="200px">
-            <p>Ini Gambar 1</p>
+            <p>Cara Menanam Hidroponik</p>
             
             <img src="74ddc9ff20bcb00b7ab876f4018d18268.jpg" alt="" height="200px">
-            <p>Ini Gambar 1</p>
+            <p>Keuntungan Hidroponik/p>
             
             <img src="85f2674956028a.jpg" alt="" height="200px">
-            <p>Ini Gambar 1</p>
+            <p>Tata Langkah Penanaman</p>
         </div>
     </div>
 

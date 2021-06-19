@@ -16,12 +16,11 @@
         </label>
         <label class="logo">DesignX</label>
         <ul>
-        <li><a class="active" href="http://localhost/ProjekPWEB/Home4.php">Home</a></li>
+            <li><a href="Home4.php">Home</a></li>
             <li><a href="About.php">About Us</a></li>
             <li><a href="contact.php">Contact</a></li>
-            <li><a href="Tips.php">Tips</a></li>
-            <li><a href="Signup.php">Daftar</a></li>
-            <li><a href="Login.php">Login</a></li>
+            <li><a class="active" href="Tips.php">Tips</a></li>
+            <li><img src="icon/yuno gasai 2.png" alt="" height="40px" style="margin-top:20px"></li>
         </ul>
     </nav>
     <section></section>
@@ -94,18 +93,22 @@
         </div>
         <div class="mainRoomRight">
             <p>RELATED</p>
-                <a href="">Daftar</a> <br>
-                <a href="">Galeri</a> <br>
-                <a href="">Mitra</a> <br>
+                <a href="galeri.php">Galeri</a> <br>
 
             <img src="Background2.jpg" alt="" height="200px">
-            <p>Ini Gambar 1</p>
+            <p>Cara Menanam Hidroponik</p>
+            
+            <img src="74ddc9ff20bcb00b7ab876f4018d18268.jpg" alt="" height="200px">
+            <p>Keuntungan Hidroponik/p>
+            
+            <img src="85f2674956028a.jpg" alt="" height="200px">
+            <p>Tata Langkah Penanaman</p>
         </div>
     </div>
 
     <div class="bottom">
         <div class="kotak1">
-            <a href="">About Us</a>
+            <a href="about.php">About Us</a>
             
         </div>
         <div class="kotak1">
@@ -115,7 +118,7 @@
             <a href=""><img src="icon/wa.png" alt="" height="30px">  Adinda Yoppy</a>
         </div>
         <div class="kotak1">
-            <a href="">Donate</a> <br> <br>
+            <a href="donate.php">Donate</a> <br> <br>
             <p>NEWSLETTER</p>
             <input type="input" name="" id="inputLetter"> 
             <br>
@@ -123,7 +126,7 @@
             <input type="submit" id="submitLetter" width="200px" height="200px">
         </div>
         <div class="kotak1">
-            <a href="">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
         </div>
     </div>
 

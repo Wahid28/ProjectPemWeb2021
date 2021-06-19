@@ -77,7 +77,7 @@ class dataLogin{
     // }
 }
 
-if (isset($_GET["submitLogin"])) {
+if (isset($_GET["submitLogin"])){
     if ($_GET["nama"] == NULL || $_GET["password"] == NULL){
         echo "Data tidak lengkap <br>";
     } else{
@@ -89,19 +89,28 @@ if (isset($_GET["submitLogin"])) {
 
         while($row = $result->fetch_assoc()){
             echo $row["username"] . $row["pass"] . "<br>" . $nameLogin . $passLogin;
-            if($passLogin == $row["pass"]){
-                echo "Login Berhasil";
+            if("pass" == $row["pass"]){
+                header("Location: Home4.php");
             } else{
                 echo "Login Gagal";
             }
+            $conn->close();
         }
-
-        $conn->close();
-
-        // var_dump($result);
-        // echo $_GET["nama"];
-        // echo $_GET["password"];
     }
+} 
+
+if (isset($_GET["btnSignup"])){
+    if ($_GET["nama"] == NULL || $_GET["password"] == NULL){
+        echo "Data tidak lengkap <br>";
+    } else{
+        $sql = "INSERT INTO `user` (`id`, `nama`, `gender`, `tanggal_lahir`, `alamat`, `kota`, `provinsi`, `telepon`, `email`, `username`, `pass`, `sandi`)
+        VALUES (NULL,'".$_GET["nama"]."', '".$_GET["gender"]."', '".$_GET["tanggal_lahir"]."', '".$_GET["alamat"]."', '".$_GET["kota"]."', '".$_GET["provinsi"]."', '".$_GET["telepon"]."', '".$_GET["email"]."', '".$_GET["username"]."', '".$_GET["password"]."', NULL)";
+
+        $result = $conn->query($sql);
+
+        header("Location: Home4.php");
+    }
+    $conn->close();
 }
 
 // $sql = "SELECT id, nama, nim, 'password' FROM `authors`";
@@ -133,4 +142,6 @@ class Fruit {
 
 <!-- WHERE nama = 'dnxhill_'  -->
 
-<!-- && $passLogin == $row["password"] -->
+<!-- && $passLogin == $row["password"] --> 
+
+<!-- aaaa -->

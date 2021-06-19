@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSSGaleri.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Gallery</title>
+    <title>Galeri</title>
 </head>
 
 <body>
@@ -17,12 +17,11 @@
         </label>
         <label class="logo">DesignX</label>
         <ul>
-            <li><a class="active" href="http://localhost/ProjekPWEB/Home4.php">Home</a></li>
+            <li><a href="Home4.php">Home</a></li>
             <li><a href="About.php">About Us</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="Tips.php">Tips</a></li>
-            <li><a href="Signup.php">Daftar</a></li>
-            <li><a href="Login.php">Login</a></li>
+            <li><img src="icon/yuno gasai 2.png" alt="" height="40px" style="margin-top:20px"></li>
         </ul>
     </nav>
     <section></section>
@@ -77,18 +76,18 @@
                 </div>
             </div>
         </div>
-        <div class="mainRoomRight">
+        <<div class="mainRoomRight">
             <p>RELATED</p>
-                <a href="galeri.php">Galeri</a> <br>
+                <a class="active" href="galeri.php">Galeri</a> <br>
 
             <img src="Background2.jpg" alt="" height="200px">
-            <p>Ini Gambar 1</p>
+            <p>Cara Menanam Hidroponik</p>
             
             <img src="74ddc9ff20bcb00b7ab876f4018d18268.jpg" alt="" height="200px">
-            <p>Ini Gambar 1</p>
+            <p>Keuntungan Hidroponik/p>
             
             <img src="85f2674956028a.jpg" alt="" height="200px">
-            <p>Ini Gambar 1</p>
+            <p>Tata Langkah Penanaman</p>
         </div>
     </div>
 

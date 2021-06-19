@@ -16,12 +16,11 @@
         </label>
         <label class="logo">DesignX</label>
         <ul>
-            <li><a class="active" href="http://localhost/ProjekPWEB/Home4.php">Home</a></li>
+            <li><a href="Home4.php">Home</a></li>
             <li><a href="About.php">About Us</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="Tips.php">Tips</a></li>
-            <li><a href="Signup.php">Daftar</a></li>
-            <li><a href="Login.php">Login</a></li>
+            <li><img src="icon/yuno gasai 2.png" alt="" height="40px" style="margin-top:20px"></li>
         </ul>
     </nav>
     <section></section>
@@ -74,7 +73,7 @@
             <a href=""><img src="icon/wa.png" alt="" height="30px">  Adinda Yoppy</a>
         </div>
         <div class="kotak1">
-            <a href="donate.php">Donate</a> <br> <br>
+            <a class="active" href="donate.php">Donate</a> <br> <br>
             <p>NEWSLETTER</p>
             <input type="input" name="" id="inputLetter">
 

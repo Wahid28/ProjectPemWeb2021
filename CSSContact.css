@@ -215,8 +215,10 @@ section{
     float: left;
     width: 25%;
     padding: 40px;
-    background-color: black;
+    background-color: rgb(78, 78, 78);
     text-align: center;
+    height: 300px;
+
 }
 
 .kotak1 a{
@@ -247,3 +249,4 @@ section{
 .gambarPartners{
     margin: 10px;
 }
+

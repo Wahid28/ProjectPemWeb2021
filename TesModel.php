@@ -11,7 +11,7 @@
     <form action="Model.php" method="get">
         <input type="text" name="nama" id="nama" placeholder="Username"> <br>
         <input type="text" name="password" id="password" placeholder="Password">
-        <input type="submit" name="submitLogin" id="submitLogin" onclick> 
+        <input type="submit" name="submitLogin" id="submitLogin"> 
         <div id="cancel"><a href="">CANCEL</a> </div>
     </form>
 </body>
